@@ -50,7 +50,7 @@ def next_page(event):
             sum_g = sum(g)
             r_eq = sum_g + sum(s)
             counter = 0
-            intro = Label(master=windows3, text='در ابتدا به بررسی مقاومت های سری می پردازیم', bg='gray', fg='yellow',
+            intro = Label(master=windows3, text='در ابتدا به بررسی مقاومت های موازی می پردازیم', bg='gray', fg='yellow',
                           font=('Iransans', 20)).pack()
             for each in s:
                 a = 'R' + str(counter)
