@@ -14,7 +14,7 @@ def land_page():
     windows.geometry('500x500')
     windows.configure(bg='gray', cursor='circle')
     windows.title('circuit')
-    lbl = Label(master=windows, text='به شبیه ساز مدار الکتریکی خوش نیآمدید', bg='gray', fg='yellow', font='Iransans',
+    lbl = Label(master=windows, text='به شبیه ساز مدار الکتریکی خوش آمدید', bg='gray', fg='yellow', font='Iransans',
                 bd=5).pack()
     btn = Button(master=windows, text='برای ورود کلیک نمایید ', bg='yellow', activebackground='black',
                  activeforeground='white')
